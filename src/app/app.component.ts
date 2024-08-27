@@ -123,7 +123,7 @@ export class AppComponent {
 (((((/(#####((((((((/((((((((((((((//%#(((#(&(/((((((((((((//((//(/(((/(((((((((
       `);
     console.log(" %c HAN-TYUMI, THE CONFUSED CYBORG WAS HERE", 'background: #222; color: #1aff00');
-    this.http.get('./assets/songs.json').subscribe((response: any) => {
+    this.http.get('assets/songs.json').subscribe((response: any) => {
       this.songs = response;
     });
   }
